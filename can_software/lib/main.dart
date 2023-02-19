@@ -85,7 +85,6 @@ class _MyAppState extends State<MyApp> {
                               child: Text("+")),
                           Container(
                             height: 100,
-                            width: displayWidth,
                             child: ElevatedButton(
                                 onPressed: () {
                                   setState(() {});
