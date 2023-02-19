@@ -81,8 +81,8 @@ class _MyAppState extends State<MyApp> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
-                            height: 150,
-                            width: 350,
+                            height: 100,
+                            width: 300,
                             child: ElevatedButton(
                                 onPressed: () => {
                                       setState(() {
@@ -100,8 +100,8 @@ class _MyAppState extends State<MyApp> {
                           ),
                           Container(
                             margin: EdgeInsets.only(top: 40),
-                            height: 150,
-                            width: 350,
+                            height: 100,
+                            width: 300,
                             child: ElevatedButton(
                                 onPressed: () {
                                   setState(() {});
